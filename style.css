@@ -78,6 +78,10 @@ html{
 }
 .four{
     height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
 
 .logo{
@@ -178,4 +182,44 @@ img{
 
 #emptyspace{
     width: 900px;
+}
+
+.bluecontainer{
+    background-color: #3882F6;
+    width: 1300px;
+    height: 150px;
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 250px;
+}
+.blue-boldtext{
+    color: #E5E7EB;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.blue-bottomtext{
+    color: #1F2937;
+    font-size: 24px;
+    
+}
+
+.secondbutton{
+    color: #F9FAF8;
+    background-color: #3882F6;
+    border-color: #F9FAF8;
+    border-radius: 15px;
+    padding: 10px;    
+    width: 175px;
+    border: #F9FAF8 solid;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.footer{
+    color: #F9FAF8;
+    font-size: 20px;
 }
